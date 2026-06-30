@@ -1,0 +1,2 @@
+model,mean_rmse,rmse_std,full_train_seconds,predict_seconds,core_memory_mb,rmse_source,time_memory_source
+ItemCF+MF+UserCF,16.859807,0.085568,25.2029,0.9953,36.9539,5 seeds x 5 folds internal validation,full Train.txt training and Test.txt prediction

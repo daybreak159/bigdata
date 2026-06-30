@@ -1,0 +1,5 @@
+model,mean_rmse,std_rmse,mean_train_s,mean_predict_s,mean_memory_mb,rmse_diff_vs_previous,memory_diff_vs_previous_mb
+ItemCF_tuned_baseline,17.044970,0.095096,8.3363,1.1566,18.8308,0.000000,-102.4970
+MF_tuned,16.987337,0.081207,18.7919,0.0544,2.4653,-0.150086,1.3754
+UserCF_tuned,17.541538,0.078445,3.2055,1.6028,10.0352,0.000001,-16.5655
+Ensemble_triple_tuned,16.859807,0.085568,30.3337,2.8139,31.3313,-0.052137,-117.6870

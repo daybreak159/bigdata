@@ -1,0 +1,16 @@
+本目录提供可直接运行的脚本入口。
+
+运行环境：
+1. Python 3.10 或更高版本；
+2. 依赖包见 ../源码/recommendation_project/requirements.txt，主要依赖 numpy。
+
+生成最终预测结果：
+- Linux / WSL / macOS：bash generate_result.sh
+- Windows：双击 generate_result.bat，或在命令行运行 generate_result.bat
+
+复现实验主对比：
+- Linux / WSL / macOS：bash run_experiment.sh
+- Windows：运行 run_experiment.bat
+
+说明：
+generate_result 脚本会调用 OptimizedEnsembleModel，使用完整 Train.txt 训练模型，并对 Test.txt 中 9982 个用户-物品对生成预测结果。输出文件会同步到 ../实验结果/final_result.txt。
